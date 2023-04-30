@@ -1,0 +1,23 @@
+{
+  "name": "onesecmail",
+  "version": "1.0.0",
+  "description": "Wrapper for 1secmail.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzrilsh/onesecmail.git"
+  },
+  "keywords": [
+    "free",
+    "email"
+  ],
+  "author": "fzrilsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fzrilsh/onesecmail/issues"
+  },
+  "homepage": "https://github.com/fzrilsh/onesecmail#readme"
+}
