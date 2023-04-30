@@ -8,7 +8,6 @@ Wrapper for 1secmail.com
   - [Usage](#usage)
       - [For Node.js](#for-nodejs)
     - [WARNING](#warning)
-  - [Todo](#todo)
 
 ## Usage
 
