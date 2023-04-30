@@ -1,4 +1,4 @@
-# onesecmail
+# onesecmail-api
 Wrapper for 1secmail.com
 
 ## Table of Contents
@@ -16,7 +16,7 @@ Wrapper for 1secmail.com
 Install using:
 
 ```shell
-npm install onesecmail --save
+npm install onesecmail-api --save
 ```
 
 ### WARNING
@@ -24,10 +24,10 @@ npm install onesecmail --save
 this module require nodejs ver ^18.7.0
 
 ```javascript
-const onesecmail = require('onesecmail');
+const onesecmailApi = require('onesecmail-api');
 
 (async () => {
-    const { mail, event } = await onesecmail()
+    const { mail, event } = await onesecmailApi()
     console.log(mail)
     event.on('newMsg', console.log)
 })()

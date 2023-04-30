@@ -1,5 +1,5 @@
 {
-  "name": "onesecmail",
+  "name": "onesecmail-api",
   "version": "1.0.0",
   "description": "Wrapper for 1secmail.com",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fzrilsh/onesecmail.git"
+    "url": "git+https://github.com/fzrilsh/onesecmail-api.git"
   },
   "keywords": [
     "free",
@@ -17,7 +17,7 @@
   "author": "fzrilsh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fzrilsh/onesecmail/issues"
+    "url": "https://github.com/fzrilsh/onesecmail-api/issues"
   },
-  "homepage": "https://github.com/fzrilsh/onesecmail#readme"
+  "homepage": "https://github.com/fzrilsh/onesecmail-api#readme"
 }
