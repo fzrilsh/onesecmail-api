@@ -25,13 +25,17 @@ async function getRandomMail() {
 async function getMailApi(advanced = true, username, domain, id) {
   var response;
 
-  if (advanced) {
-    response = await (await fetch('https://www.1secmail.com/api/v1/?action=genRandomMailbox')).json();
-  } else {
-    response = await (await fetch(`https://www.1secmail.com/api/v1/?action=${id ? "readMessage" : "getMessages"}&login=${username}&domain=${domain}${id ? `&id=${id}` : ""}`)).json();
-  }
+  try {
+    if (advanced) {
+      response = await (await fetch('https://www.1secmail.com/api/v1/?action=genRandomMailbox')).json();
+    } else {
+      response = await (await fetch(`https://www.1secmail.com/api/v1/?action=${id ? "readMessage" : "getMessages"}&login=${username}&domain=${domain}${id ? `&id=${id}` : ""}`)).json();
+    }
 
-  return response
+    return response
+  } catch (error) {
+    return []
+  }
 }
 
 /**
